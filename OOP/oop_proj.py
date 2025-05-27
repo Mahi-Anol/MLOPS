@@ -1,4 +1,6 @@
 class chatbook:
+
+    __mahi=1
     def __init__(self):
         self.username=''
         self.email=''
@@ -13,6 +15,8 @@ class chatbook:
                          4. press 4 to message a friend.
                          5. Press any key to exit.
                          ''')
+        
+        # chatbook.__mahi
         if user_input =='1':
             self.signup()
         elif user_input=='2':
@@ -65,8 +69,8 @@ class chatbook:
 
 
 
-obj=chatbook()
+# obj=chatbook()
 
-obj.menu()
+# obj.menu()
 
 # obj.signup()

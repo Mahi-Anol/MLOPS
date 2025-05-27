@@ -11,4 +11,5 @@ from oop_proj import chatbook
 
 a=chatbook()
 
-a.menu()
+
+print(dir(a))
